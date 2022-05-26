@@ -1,3 +1,10 @@
+google-cloud-storage
+numpy
+opencv-python
+pandas
+CV/gaze_tracking/dlib-19.19.0-cp38-cp38-win_amd64.whl
 streamlit
+pillow
 matplotlib
 altair
+protobuf~=3.19.0

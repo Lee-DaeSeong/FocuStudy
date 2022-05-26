@@ -50,7 +50,6 @@ if name:
                         break
 
                     if time.time() - prev >= 4.995:
-                        print(vid)
                         print(time.time() - prev)
                         cv_melt = cv_point.reset_index().melt('time', var_name='category', value_name='y').sort_values(
                             'time')
