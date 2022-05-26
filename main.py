@@ -24,10 +24,10 @@ if name:
             if btn:
                 video_file = open('WIN_20220411_23_40_10_Pro.mp4', 'rb')
                 video_bytes = video_file.read()
-                _, a, _ = st.columns((1, 2, 1))
-                c, d = st.columns(2)
+                _, video_layout, _ = st.columns((1, 2, 1))
+                graph_layout = st.columns(2)
 
-                with a:
+                with video_layout:
                     vid = st.video(video_bytes)
 
                 end = 0
@@ -39,10 +39,10 @@ if name:
                     color='category:N'
                     ).properties(
                     title='이해도 점수')
-                with c:
-                    temp = st.altair_chart(line_chart, use_container_width=True)
-                with d:
-                    temp1 = st.altair_chart(line_chart, use_container_width=True)
+                with graph_layout[0]:
+                    left_graph = st.altair_chart(line_chart, use_container_width=True)
+                with graph_layout[1]:
+                    right_graph = st.altair_chart(line_chart, use_container_width=True)
 
                 prev = time.time()
                 while True:
@@ -56,8 +56,8 @@ if name:
                         line_chart = alt.Chart(cv_melt[start:end]).mark_line(interpolate='basis'). \
                             encode(alt.X('time', title='sec'), alt.Y('y', title='Point'), color='category:N'). \
                             properties(title='이해도 점수')
-                        temp.altair_chart(line_chart, use_container_width=True)
-                        temp1.altair_chart(line_chart, use_container_width=True)
+                        left_graph.altair_chart(line_chart, use_container_width=True)
+                        right_graph.altair_chart(line_chart, use_container_width=True)
 
                         end += 2
                         if 20 < end:
@@ -65,5 +65,5 @@ if name:
                         prev = time.time()
 
                 time.sleep(3)
-                temp.altair_chart(line_chart, use_container_width=True)
-                temp1.altair_chart(line_chart, use_container_width=True)
+                left_graph.altair_chart(line_chart, use_container_width=True)
+                right_graph.altair_chart(line_chart, use_container_width=True)
