@@ -1,10 +1,14 @@
 import collections
+import json
+
 import cv2
+import numpy as np
+
 from CV.gaze_tracking.gaze_tracking import GazeTracking
 import time
 import csv
 
-face_cascade = cv2.CascadeClassifier('./face_movement/haarcascade_frontface.xml')
+face_cascade = cv2.CascadeClassifier('./CV/face_recognition/haarcascade_frontface.xml')
 video_path = 'room2_박현우_1.avi'
 cap = cv2.VideoCapture(video_path)
 gaze = GazeTracking()
@@ -55,6 +59,9 @@ def get_point():
         move += move_q[3] * 0.5
         move_q.popleft()
 
+    # 여기가 파라미터 조절하는 부분
+    # 점수가 너무 높게 나오면 0.3을 줄이고
+    # 점수가 낮게 나오면 0.3보다 큰 값을 주면 됨
     if move > (prev * (1.43 + 0.3)) or move > min_movement * 5:
         move_point = 0
     elif move > (prev * (1.22 + 0.3)):
@@ -75,6 +82,9 @@ def get_point():
     gaze_frame_cnt = 1
     gaze_center = 1
 
+    # 여기가 파라미터 조절하는 부분
+    # 점수가 너무 높게 나오면 0.2를 줄이고
+    # 점수가 낮게 나오면 0.2보다 큰 값을 주면 됨
     # 0.828, 0.719, 0.582
     if calc_gaze > (0.828 - 0.2):
         gaze_point += 2
@@ -103,6 +113,7 @@ while True:
     cap.read()
     cap.read()
     cap.read()
+
     cur_frame_cnt += 5
 
     if not ret:
@@ -133,12 +144,25 @@ while True:
         gaze_center += 1
 
 get_point()
-ml_point = []
 
-csv_writer = csv.writer(open('point_csv.csv', 'w', encoding='utf-8-sig', newline=""))
-csv_writer.writerow(['time', 'cv', 'ml'])
+def parse_json(f):
+    file = open(f)
+    jsonString = json.load(file)
+    for i in range(2):
+        if jsonString.get("one_second_interval_classification_annotations")[i]['annotation_spec']['description'] == '2':
+            data = jsonString.get("one_second_interval_classification_annotations")[i]['frames']
+            con_data = [data[j]['confidence'] * 100 for j in range(len(data))]
+            print(len(con_data))
+            con_data = np.array([np.array(con_data[i:i + 5]).mean() for i in range(0, len(con_data), 5)])
+            con_data = np.round(con_data)
+            return con_data
+
+ml_point = parse_json('data/vertex_json/pp_prediction-untitled_16510289_20220427022643-2022-05-24T02_51_29.337693Z_student_video_1.json')
+
+csv_writer = csv.writer(open('data/point/{}.csv'.format(video_path[:-4]), 'w', encoding='utf-8-sig', newline=""))
+csv_writer.writerow(['time', 'cv', 'ml', 'blend'])
 
 end = 0
 for t in range(len(cv_point)):
-    csv_writer.writerow([t * 5, cv_point[end] * 20])
+    csv_writer.writerow([t * 5, cv_point[end] * 20, ml_point[t]])
     end += 1

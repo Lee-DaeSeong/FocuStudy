@@ -1,0 +1,1645 @@
+{
+  "segment_classification_annotations": [ {
+    "annotation_spec": {
+      "display_name": "0",
+      "description": "0"
+    },
+    "segments": [ {
+      "segment": {
+        "start_time_offset": {
+        
+        },
+        "end_time_offset": {
+          "seconds": 107,
+          "nanos": 366666000
+        }
+      },
+      "confidence": 0.12059819
+    } ]
+  }, {
+    "annotation_spec": {
+      "display_name": "2",
+      "description": "2"
+    },
+    "segments": [ {
+      "segment": {
+        "start_time_offset": {
+        
+        },
+        "end_time_offset": {
+          "seconds": 107,
+          "nanos": 366666000
+        }
+      },
+      "confidence": 0.8794018
+    } ]
+  } ],
+  "shot_classification_annotations": [ {
+    "annotation_spec": {
+      "display_name": "2",
+      "description": "2"
+    },
+    "segments": [ {
+      "segment": {
+        "start_time_offset": {
+        
+        },
+        "end_time_offset": {
+          "seconds": 2,
+          "nanos": 40000000
+        }
+      },
+      "confidence": 0.89052641
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 2,
+          "nanos": 80000000
+        },
+        "end_time_offset": {
+          "seconds": 3,
+          "nanos": 520000000
+        }
+      },
+      "confidence": 0.87595063
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 3,
+          "nanos": 560000000
+        },
+        "end_time_offset": {
+          "seconds": 4,
+          "nanos": 40000000
+        }
+      },
+      "confidence": 0.88368315
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 4,
+          "nanos": 80000000
+        },
+        "end_time_offset": {
+          "seconds": 5,
+          "nanos": 840000000
+        }
+      },
+      "confidence": 0.79004931
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 5,
+          "nanos": 880000000
+        },
+        "end_time_offset": {
+          "seconds": 24,
+          "nanos": 520000000
+        }
+      },
+      "confidence": 0.83678836
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 24,
+          "nanos": 560000000
+        },
+        "end_time_offset": {
+          "seconds": 41,
+          "nanos": 240000000
+        }
+      },
+      "confidence": 0.94057548
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 41,
+          "nanos": 280000000
+        },
+        "end_time_offset": {
+          "seconds": 44,
+          "nanos": 160000000
+        }
+      },
+      "confidence": 0.90656537
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 44,
+          "nanos": 200000000
+        },
+        "end_time_offset": {
+          "seconds": 47,
+          "nanos": 240000000
+        }
+      },
+      "confidence": 0.96309602
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 47,
+          "nanos": 280000000
+        },
+        "end_time_offset": {
+          "seconds": 59,
+          "nanos": 880000000
+        }
+      },
+      "confidence": 0.94360435
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 59,
+          "nanos": 920000000
+        },
+        "end_time_offset": {
+          "seconds": 69,
+          "nanos": 280000000
+        }
+      },
+      "confidence": 0.9011966
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 69,
+          "nanos": 320000000
+        },
+        "end_time_offset": {
+          "seconds": 72,
+          "nanos": 80000000
+        }
+      },
+      "confidence": 0.94555879
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 72,
+          "nanos": 120000000
+        },
+        "end_time_offset": {
+          "seconds": 103,
+          "nanos": 360000000
+        }
+      },
+      "confidence": 0.86904132
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 103,
+          "nanos": 400000000
+        },
+        "end_time_offset": {
+          "seconds": 107,
+          "nanos": 360000000
+        }
+      },
+      "confidence": 0.19270498
+    } ]
+  }, {
+    "annotation_spec": {
+      "display_name": "0",
+      "description": "0"
+    },
+    "segments": [ {
+      "segment": {
+        "start_time_offset": {
+        
+        },
+        "end_time_offset": {
+          "seconds": 2,
+          "nanos": 40000000
+        }
+      },
+      "confidence": 0.10947365
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 2,
+          "nanos": 80000000
+        },
+        "end_time_offset": {
+          "seconds": 3,
+          "nanos": 520000000
+        }
+      },
+      "confidence": 0.12404936
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 3,
+          "nanos": 560000000
+        },
+        "end_time_offset": {
+          "seconds": 4,
+          "nanos": 40000000
+        }
+      },
+      "confidence": 0.1163168
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 4,
+          "nanos": 80000000
+        },
+        "end_time_offset": {
+          "seconds": 5,
+          "nanos": 840000000
+        }
+      },
+      "confidence": 0.20995067
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 5,
+          "nanos": 880000000
+        },
+        "end_time_offset": {
+          "seconds": 24,
+          "nanos": 520000000
+        }
+      },
+      "confidence": 0.1632117
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 24,
+          "nanos": 560000000
+        },
+        "end_time_offset": {
+          "seconds": 41,
+          "nanos": 240000000
+        }
+      },
+      "confidence": 0.059424479
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 41,
+          "nanos": 280000000
+        },
+        "end_time_offset": {
+          "seconds": 44,
+          "nanos": 160000000
+        }
+      },
+      "confidence": 0.093434691
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 44,
+          "nanos": 200000000
+        },
+        "end_time_offset": {
+          "seconds": 47,
+          "nanos": 240000000
+        }
+      },
+      "confidence": 0.036904007
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 47,
+          "nanos": 280000000
+        },
+        "end_time_offset": {
+          "seconds": 59,
+          "nanos": 880000000
+        }
+      },
+      "confidence": 0.056395646
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 59,
+          "nanos": 920000000
+        },
+        "end_time_offset": {
+          "seconds": 69,
+          "nanos": 280000000
+        }
+      },
+      "confidence": 0.098803498
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 69,
+          "nanos": 320000000
+        },
+        "end_time_offset": {
+          "seconds": 72,
+          "nanos": 80000000
+        }
+      },
+      "confidence": 0.054441243
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 72,
+          "nanos": 120000000
+        },
+        "end_time_offset": {
+          "seconds": 103,
+          "nanos": 360000000
+        }
+      },
+      "confidence": 0.13095869
+    }, {
+      "segment": {
+        "start_time_offset": {
+          "seconds": 103,
+          "nanos": 400000000
+        },
+        "end_time_offset": {
+          "seconds": 107,
+          "nanos": 360000000
+        }
+      },
+      "confidence": 0.80729496
+    } ]
+  } ],
+  "one_second_interval_classification_annotations": [ {
+    "annotation_spec": {
+      "display_name": "0",
+      "description": "0"
+    },
+    "frames": [ {
+      "time_offset": {
+        "seconds": 1,
+        "nanos": 280000000
+      },
+      "confidence": 0.15564229
+    }, {
+      "time_offset": {
+        "seconds": 2,
+        "nanos": 280000000
+      },
+      "confidence": 0.077172346
+    }, {
+      "time_offset": {
+        "seconds": 3,
+        "nanos": 280000000
+      },
+      "confidence": 0.095606312
+    }, {
+      "time_offset": {
+        "seconds": 4,
+        "nanos": 280000000
+      },
+      "confidence": 0.12404936
+    }, {
+      "time_offset": {
+        "seconds": 5,
+        "nanos": 280000000
+      },
+      "confidence": 0.1163168
+    }, {
+      "time_offset": {
+        "seconds": 6,
+        "nanos": 280000000
+      },
+      "confidence": 0.20995067
+    }, {
+      "time_offset": {
+        "seconds": 7,
+        "nanos": 280000000
+      },
+      "confidence": 0.30677477
+    }, {
+      "time_offset": {
+        "seconds": 8,
+        "nanos": 280000000
+      },
+      "confidence": 0.25843197
+    }, {
+      "time_offset": {
+        "seconds": 9,
+        "nanos": 280000000
+      },
+      "confidence": 0.093657501
+    }, {
+      "time_offset": {
+        "seconds": 10,
+        "nanos": 280000000
+      },
+      "confidence": 0.06756144
+    }, {
+      "time_offset": {
+        "seconds": 11,
+        "nanos": 280000000
+      },
+      "confidence": 0.1421233
+    }, {
+      "time_offset": {
+        "seconds": 12,
+        "nanos": 280000000
+      },
+      "confidence": 0.22955513
+    }, {
+      "time_offset": {
+        "seconds": 13,
+        "nanos": 280000000
+      },
+      "confidence": 0.2768153
+    }, {
+      "time_offset": {
+        "seconds": 14,
+        "nanos": 280000000
+      },
+      "confidence": 0.1078868
+    }, {
+      "time_offset": {
+        "seconds": 15,
+        "nanos": 280000000
+      },
+      "confidence": 0.05099766
+    }, {
+      "time_offset": {
+        "seconds": 16,
+        "nanos": 280000000
+      },
+      "confidence": 0.16821064
+    }, {
+      "time_offset": {
+        "seconds": 17,
+        "nanos": 280000000
+      },
+      "confidence": 0.11379451
+    }, {
+      "time_offset": {
+        "seconds": 18,
+        "nanos": 280000000
+      },
+      "confidence": 0.2182298
+    }, {
+      "time_offset": {
+        "seconds": 19,
+        "nanos": 280000000
+      },
+      "confidence": 0.24885404
+    }, {
+      "time_offset": {
+        "seconds": 20,
+        "nanos": 280000000
+      },
+      "confidence": 0.5628711
+    }, {
+      "time_offset": {
+        "seconds": 21,
+        "nanos": 280000000
+      },
+      "confidence": 0.080841377
+    }, {
+      "time_offset": {
+        "seconds": 22,
+        "nanos": 280000000
+      },
+      "confidence": 0.072324894
+    }, {
+      "time_offset": {
+        "seconds": 23,
+        "nanos": 280000000
+      },
+      "confidence": 0.030469298
+    }, {
+      "time_offset": {
+        "seconds": 24,
+        "nanos": 280000000
+      },
+      "confidence": 0.031325504
+    }, {
+      "time_offset": {
+        "seconds": 25,
+        "nanos": 280000000
+      },
+      "confidence": 0.040297318
+    }, {
+      "time_offset": {
+        "seconds": 26,
+        "nanos": 280000000
+      },
+      "confidence": 0.037016612
+    }, {
+      "time_offset": {
+        "seconds": 27,
+        "nanos": 280000000
+      },
+      "confidence": 0.040414687
+    }, {
+      "time_offset": {
+        "seconds": 28,
+        "nanos": 280000000
+      },
+      "confidence": 0.048426099
+    }, {
+      "time_offset": {
+        "seconds": 29,
+        "nanos": 280000000
+      },
+      "confidence": 0.034900505
+    }, {
+      "time_offset": {
+        "seconds": 30,
+        "nanos": 280000000
+      },
+      "confidence": 0.05793063
+    }, {
+      "time_offset": {
+        "seconds": 31,
+        "nanos": 280000000
+      },
+      "confidence": 0.036966179
+    }, {
+      "time_offset": {
+        "seconds": 32,
+        "nanos": 280000000
+      },
+      "confidence": 0.077875309
+    }, {
+      "time_offset": {
+        "seconds": 33,
+        "nanos": 280000000
+      },
+      "confidence": 0.073101625
+    }, {
+      "time_offset": {
+        "seconds": 34,
+        "nanos": 280000000
+      },
+      "confidence": 0.14521962
+    }, {
+      "time_offset": {
+        "seconds": 35,
+        "nanos": 280000000
+      },
+      "confidence": 0.10734202
+    }, {
+      "time_offset": {
+        "seconds": 36,
+        "nanos": 280000000
+      },
+      "confidence": 0.078168899
+    }, {
+      "time_offset": {
+        "seconds": 37,
+        "nanos": 280000000
+      },
+      "confidence": 0.047215339
+    }, {
+      "time_offset": {
+        "seconds": 38,
+        "nanos": 280000000
+      },
+      "confidence": 0.032266047
+    }, {
+      "time_offset": {
+        "seconds": 39,
+        "nanos": 280000000
+      },
+      "confidence": 0.033485044
+    }, {
+      "time_offset": {
+        "seconds": 40,
+        "nanos": 280000000
+      },
+      "confidence": 0.037876707
+    }, {
+      "time_offset": {
+        "seconds": 41,
+        "nanos": 280000000
+      },
+      "confidence": 0.07038103
+    }, {
+      "time_offset": {
+        "seconds": 42,
+        "nanos": 280000000
+      },
+      "confidence": 0.0516298
+    }, {
+      "time_offset": {
+        "seconds": 43,
+        "nanos": 280000000
+      },
+      "confidence": 0.053401332
+    }, {
+      "time_offset": {
+        "seconds": 44,
+        "nanos": 280000000
+      },
+      "confidence": 0.13707787
+    }, {
+      "time_offset": {
+        "seconds": 45,
+        "nanos": 280000000
+      },
+      "confidence": 0.089824863
+    }, {
+      "time_offset": {
+        "seconds": 46,
+        "nanos": 280000000
+      },
+      "confidence": 0.049656972
+    }, {
+      "time_offset": {
+        "seconds": 47,
+        "nanos": 280000000
+      },
+      "confidence": 0.037818823
+    }, {
+      "time_offset": {
+        "seconds": 48,
+        "nanos": 280000000
+      },
+      "confidence": 0.023236224
+    }, {
+      "time_offset": {
+        "seconds": 49,
+        "nanos": 280000000
+      },
+      "confidence": 0.024001144
+    }, {
+      "time_offset": {
+        "seconds": 50,
+        "nanos": 280000000
+      },
+      "confidence": 0.022546256
+    }, {
+      "time_offset": {
+        "seconds": 51,
+        "nanos": 280000000
+      },
+      "confidence": 0.025685178
+    }, {
+      "time_offset": {
+        "seconds": 52,
+        "nanos": 280000000
+      },
+      "confidence": 0.041781537
+    }, {
+      "time_offset": {
+        "seconds": 53,
+        "nanos": 280000000
+      },
+      "confidence": 0.02533409
+    }, {
+      "time_offset": {
+        "seconds": 54,
+        "nanos": 280000000
+      },
+      "confidence": 0.03888071
+    }, {
+      "time_offset": {
+        "seconds": 55,
+        "nanos": 280000000
+      },
+      "confidence": 0.037196491
+    }, {
+      "time_offset": {
+        "seconds": 56,
+        "nanos": 280000000
+      },
+      "confidence": 0.033344168
+    }, {
+      "time_offset": {
+        "seconds": 57,
+        "nanos": 280000000
+      },
+      "confidence": 0.049081512
+    }, {
+      "time_offset": {
+        "seconds": 58,
+        "nanos": 280000000
+      },
+      "confidence": 0.035153124
+    }, {
+      "time_offset": {
+        "seconds": 59,
+        "nanos": 280000000
+      },
+      "confidence": 0.18575546
+    }, {
+      "time_offset": {
+        "seconds": 60,
+        "nanos": 280000000
+      },
+      "confidence": 0.15798806
+    }, {
+      "time_offset": {
+        "seconds": 61,
+        "nanos": 280000000
+      },
+      "confidence": 0.14390542
+    }, {
+      "time_offset": {
+        "seconds": 62,
+        "nanos": 280000000
+      },
+      "confidence": 0.10602921
+    }, {
+      "time_offset": {
+        "seconds": 63,
+        "nanos": 280000000
+      },
+      "confidence": 0.074020647
+    }, {
+      "time_offset": {
+        "seconds": 64,
+        "nanos": 280000000
+      },
+      "confidence": 0.10129582
+    }, {
+      "time_offset": {
+        "seconds": 65,
+        "nanos": 280000000
+      },
+      "confidence": 0.062171593
+    }, {
+      "time_offset": {
+        "seconds": 66,
+        "nanos": 280000000
+      },
+      "confidence": 0.16499746
+    }, {
+      "time_offset": {
+        "seconds": 67,
+        "nanos": 280000000
+      },
+      "confidence": 0.093898878
+    }, {
+      "time_offset": {
+        "seconds": 68,
+        "nanos": 280000000
+      },
+      "confidence": 0.097415514
+    }, {
+      "time_offset": {
+        "seconds": 69,
+        "nanos": 280000000
+      },
+      "confidence": 0.073397502
+    }, {
+      "time_offset": {
+        "seconds": 70,
+        "nanos": 280000000
+      },
+      "confidence": 0.070902899
+    }, {
+      "time_offset": {
+        "seconds": 71,
+        "nanos": 280000000
+      },
+      "confidence": 0.076940171
+    }, {
+      "time_offset": {
+        "seconds": 72,
+        "nanos": 280000000
+      },
+      "confidence": 0.03852734
+    }, {
+      "time_offset": {
+        "seconds": 73,
+        "nanos": 280000000
+      },
+      "confidence": 0.047856212
+    }, {
+      "time_offset": {
+        "seconds": 74,
+        "nanos": 280000000
+      },
+      "confidence": 0.030297495
+    }, {
+      "time_offset": {
+        "seconds": 75,
+        "nanos": 280000000
+      },
+      "confidence": 0.027766876
+    }, {
+      "time_offset": {
+        "seconds": 76,
+        "nanos": 280000000
+      },
+      "confidence": 0.03067939
+    }, {
+      "time_offset": {
+        "seconds": 77,
+        "nanos": 280000000
+      },
+      "confidence": 0.04103715
+    }, {
+      "time_offset": {
+        "seconds": 78,
+        "nanos": 280000000
+      },
+      "confidence": 0.030986998
+    }, {
+      "time_offset": {
+        "seconds": 79,
+        "nanos": 280000000
+      },
+      "confidence": 0.061622161
+    }, {
+      "time_offset": {
+        "seconds": 80,
+        "nanos": 280000000
+      },
+      "confidence": 0.16231425
+    }, {
+      "time_offset": {
+        "seconds": 81,
+        "nanos": 280000000
+      },
+      "confidence": 0.18421257
+    }, {
+      "time_offset": {
+        "seconds": 82,
+        "nanos": 280000000
+      },
+      "confidence": 0.034638241
+    }, {
+      "time_offset": {
+        "seconds": 83,
+        "nanos": 280000000
+      },
+      "confidence": 0.04393385
+    }, {
+      "time_offset": {
+        "seconds": 84,
+        "nanos": 280000000
+      },
+      "confidence": 0.04071936
+    }, {
+      "time_offset": {
+        "seconds": 85,
+        "nanos": 280000000
+      },
+      "confidence": 0.18955104
+    }, {
+      "time_offset": {
+        "seconds": 86,
+        "nanos": 280000000
+      },
+      "confidence": 0.10688598
+    }, {
+      "time_offset": {
+        "seconds": 87,
+        "nanos": 280000000
+      },
+      "confidence": 0.13880314
+    }, {
+      "time_offset": {
+        "seconds": 88,
+        "nanos": 280000000
+      },
+      "confidence": 0.0437201
+    }, {
+      "time_offset": {
+        "seconds": 89,
+        "nanos": 280000000
+      },
+      "confidence": 0.089805976
+    }, {
+      "time_offset": {
+        "seconds": 90,
+        "nanos": 280000000
+      },
+      "confidence": 0.11457773
+    }, {
+      "time_offset": {
+        "seconds": 91,
+        "nanos": 280000000
+      },
+      "confidence": 0.074488655
+    }, {
+      "time_offset": {
+        "seconds": 92,
+        "nanos": 280000000
+      },
+      "confidence": 0.036453553
+    }, {
+      "time_offset": {
+        "seconds": 93,
+        "nanos": 280000000
+      },
+      "confidence": 0.11875555
+    }, {
+      "time_offset": {
+        "seconds": 94,
+        "nanos": 280000000
+      },
+      "confidence": 0.06403549
+    }, {
+      "time_offset": {
+        "seconds": 95,
+        "nanos": 280000000
+      },
+      "confidence": 0.087564297
+    }, {
+      "time_offset": {
+        "seconds": 96,
+        "nanos": 280000000
+      },
+      "confidence": 0.12055229
+    }, {
+      "time_offset": {
+        "seconds": 97,
+        "nanos": 280000000
+      },
+      "confidence": 0.077824734
+    }, {
+      "time_offset": {
+        "seconds": 98,
+        "nanos": 280000000
+      },
+      "confidence": 0.08664041
+    }, {
+      "time_offset": {
+        "seconds": 99,
+        "nanos": 280000000
+      },
+      "confidence": 0.049571544
+    }, {
+      "time_offset": {
+        "seconds": 100,
+        "nanos": 280000000
+      },
+      "confidence": 0.094974726
+    }, {
+      "time_offset": {
+        "seconds": 101,
+        "nanos": 280000000
+      },
+      "confidence": 0.038842566
+    }, {
+      "time_offset": {
+        "seconds": 102,
+        "nanos": 280000000
+      },
+      "confidence": 0.20283408
+    }, {
+      "time_offset": {
+        "seconds": 103,
+        "nanos": 280000000
+      },
+      "confidence": 0.72028989
+    }, {
+      "time_offset": {
+        "seconds": 104,
+        "nanos": 280000000
+      },
+      "confidence": 0.91533911
+    }, {
+      "time_offset": {
+        "seconds": 105,
+        "nanos": 280000000
+      },
+      "confidence": 0.76769847
+    }, {
+      "time_offset": {
+        "seconds": 106,
+        "nanos": 120000000
+      },
+      "confidence": 0.84689152
+    } ]
+  }, {
+    "annotation_spec": {
+      "display_name": "2",
+      "description": "2"
+    },
+    "frames": [ {
+      "time_offset": {
+        "seconds": 1,
+        "nanos": 280000000
+      },
+      "confidence": 0.84435773
+    }, {
+      "time_offset": {
+        "seconds": 2,
+        "nanos": 280000000
+      },
+      "confidence": 0.92282772
+    }, {
+      "time_offset": {
+        "seconds": 3,
+        "nanos": 280000000
+      },
+      "confidence": 0.90439373
+    }, {
+      "time_offset": {
+        "seconds": 4,
+        "nanos": 280000000
+      },
+      "confidence": 0.87595063
+    }, {
+      "time_offset": {
+        "seconds": 5,
+        "nanos": 280000000
+      },
+      "confidence": 0.88368315
+    }, {
+      "time_offset": {
+        "seconds": 6,
+        "nanos": 280000000
+      },
+      "confidence": 0.79004931
+    }, {
+      "time_offset": {
+        "seconds": 7,
+        "nanos": 280000000
+      },
+      "confidence": 0.69322526
+    }, {
+      "time_offset": {
+        "seconds": 8,
+        "nanos": 280000000
+      },
+      "confidence": 0.74156803
+    }, {
+      "time_offset": {
+        "seconds": 9,
+        "nanos": 280000000
+      },
+      "confidence": 0.90634251
+    }, {
+      "time_offset": {
+        "seconds": 10,
+        "nanos": 280000000
+      },
+      "confidence": 0.93243855
+    }, {
+      "time_offset": {
+        "seconds": 11,
+        "nanos": 280000000
+      },
+      "confidence": 0.85787666
+    }, {
+      "time_offset": {
+        "seconds": 12,
+        "nanos": 280000000
+      },
+      "confidence": 0.77044493
+    }, {
+      "time_offset": {
+        "seconds": 13,
+        "nanos": 280000000
+      },
+      "confidence": 0.72318465
+    }, {
+      "time_offset": {
+        "seconds": 14,
+        "nanos": 280000000
+      },
+      "confidence": 0.89211315
+    }, {
+      "time_offset": {
+        "seconds": 15,
+        "nanos": 280000000
+      },
+      "confidence": 0.94900227
+    }, {
+      "time_offset": {
+        "seconds": 16,
+        "nanos": 280000000
+      },
+      "confidence": 0.83178931
+    }, {
+      "time_offset": {
+        "seconds": 17,
+        "nanos": 280000000
+      },
+      "confidence": 0.88620555
+    }, {
+      "time_offset": {
+        "seconds": 18,
+        "nanos": 280000000
+      },
+      "confidence": 0.78177017
+    }, {
+      "time_offset": {
+        "seconds": 19,
+        "nanos": 280000000
+      },
+      "confidence": 0.75114596
+    }, {
+      "time_offset": {
+        "seconds": 20,
+        "nanos": 280000000
+      },
+      "confidence": 0.43712881
+    }, {
+      "time_offset": {
+        "seconds": 21,
+        "nanos": 280000000
+      },
+      "confidence": 0.91915858
+    }, {
+      "time_offset": {
+        "seconds": 22,
+        "nanos": 280000000
+      },
+      "confidence": 0.92767513
+    }, {
+      "time_offset": {
+        "seconds": 23,
+        "nanos": 280000000
+      },
+      "confidence": 0.96953064
+    }, {
+      "time_offset": {
+        "seconds": 24,
+        "nanos": 280000000
+      },
+      "confidence": 0.96867454
+    }, {
+      "time_offset": {
+        "seconds": 25,
+        "nanos": 280000000
+      },
+      "confidence": 0.95970273
+    }, {
+      "time_offset": {
+        "seconds": 26,
+        "nanos": 280000000
+      },
+      "confidence": 0.96298337
+    }, {
+      "time_offset": {
+        "seconds": 27,
+        "nanos": 280000000
+      },
+      "confidence": 0.95958525
+    }, {
+      "time_offset": {
+        "seconds": 28,
+        "nanos": 280000000
+      },
+      "confidence": 0.95157385
+    }, {
+      "time_offset": {
+        "seconds": 29,
+        "nanos": 280000000
+      },
+      "confidence": 0.96509945
+    }, {
+      "time_offset": {
+        "seconds": 30,
+        "nanos": 280000000
+      },
+      "confidence": 0.94206941
+    }, {
+      "time_offset": {
+        "seconds": 31,
+        "nanos": 280000000
+      },
+      "confidence": 0.9630338
+    }, {
+      "time_offset": {
+        "seconds": 32,
+        "nanos": 280000000
+      },
+      "confidence": 0.92212468
+    }, {
+      "time_offset": {
+        "seconds": 33,
+        "nanos": 280000000
+      },
+      "confidence": 0.92689836
+    }, {
+      "time_offset": {
+        "seconds": 34,
+        "nanos": 280000000
+      },
+      "confidence": 0.85478038
+    }, {
+      "time_offset": {
+        "seconds": 35,
+        "nanos": 280000000
+      },
+      "confidence": 0.892658
+    }, {
+      "time_offset": {
+        "seconds": 36,
+        "nanos": 280000000
+      },
+      "confidence": 0.92183113
+    }, {
+      "time_offset": {
+        "seconds": 37,
+        "nanos": 280000000
+      },
+      "confidence": 0.95278472
+    }, {
+      "time_offset": {
+        "seconds": 38,
+        "nanos": 280000000
+      },
+      "confidence": 0.96773392
+    }, {
+      "time_offset": {
+        "seconds": 39,
+        "nanos": 280000000
+      },
+      "confidence": 0.966515
+    }, {
+      "time_offset": {
+        "seconds": 40,
+        "nanos": 280000000
+      },
+      "confidence": 0.96212333
+    }, {
+      "time_offset": {
+        "seconds": 41,
+        "nanos": 280000000
+      },
+      "confidence": 0.92961895
+    }, {
+      "time_offset": {
+        "seconds": 42,
+        "nanos": 280000000
+      },
+      "confidence": 0.94837028
+    }, {
+      "time_offset": {
+        "seconds": 43,
+        "nanos": 280000000
+      },
+      "confidence": 0.94659871
+    }, {
+      "time_offset": {
+        "seconds": 44,
+        "nanos": 280000000
+      },
+      "confidence": 0.86292219
+    }, {
+      "time_offset": {
+        "seconds": 45,
+        "nanos": 280000000
+      },
+      "confidence": 0.91017509
+    }, {
+      "time_offset": {
+        "seconds": 46,
+        "nanos": 280000000
+      },
+      "confidence": 0.95034307
+    }, {
+      "time_offset": {
+        "seconds": 47,
+        "nanos": 280000000
+      },
+      "confidence": 0.96218115
+    }, {
+      "time_offset": {
+        "seconds": 48,
+        "nanos": 280000000
+      },
+      "confidence": 0.97676373
+    }, {
+      "time_offset": {
+        "seconds": 49,
+        "nanos": 280000000
+      },
+      "confidence": 0.97599888
+    }, {
+      "time_offset": {
+        "seconds": 50,
+        "nanos": 280000000
+      },
+      "confidence": 0.97745377
+    }, {
+      "time_offset": {
+        "seconds": 51,
+        "nanos": 280000000
+      },
+      "confidence": 0.97431481
+    }, {
+      "time_offset": {
+        "seconds": 52,
+        "nanos": 280000000
+      },
+      "confidence": 0.95821851
+    }, {
+      "time_offset": {
+        "seconds": 53,
+        "nanos": 280000000
+      },
+      "confidence": 0.97466588
+    }, {
+      "time_offset": {
+        "seconds": 54,
+        "nanos": 280000000
+      },
+      "confidence": 0.96111929
+    }, {
+      "time_offset": {
+        "seconds": 55,
+        "nanos": 280000000
+      },
+      "confidence": 0.96280354
+    }, {
+      "time_offset": {
+        "seconds": 56,
+        "nanos": 280000000
+      },
+      "confidence": 0.96665579
+    }, {
+      "time_offset": {
+        "seconds": 57,
+        "nanos": 280000000
+      },
+      "confidence": 0.95091844
+    }, {
+      "time_offset": {
+        "seconds": 58,
+        "nanos": 280000000
+      },
+      "confidence": 0.96484685
+    }, {
+      "time_offset": {
+        "seconds": 59,
+        "nanos": 280000000
+      },
+      "confidence": 0.81424457
+    }, {
+      "time_offset": {
+        "seconds": 60,
+        "nanos": 280000000
+      },
+      "confidence": 0.84201193
+    }, {
+      "time_offset": {
+        "seconds": 61,
+        "nanos": 280000000
+      },
+      "confidence": 0.8560946
+    }, {
+      "time_offset": {
+        "seconds": 62,
+        "nanos": 280000000
+      },
+      "confidence": 0.89397079
+    }, {
+      "time_offset": {
+        "seconds": 63,
+        "nanos": 280000000
+      },
+      "confidence": 0.92597932
+    }, {
+      "time_offset": {
+        "seconds": 64,
+        "nanos": 280000000
+      },
+      "confidence": 0.89870417
+    }, {
+      "time_offset": {
+        "seconds": 65,
+        "nanos": 280000000
+      },
+      "confidence": 0.93782842
+    }, {
+      "time_offset": {
+        "seconds": 66,
+        "nanos": 280000000
+      },
+      "confidence": 0.8350026
+    }, {
+      "time_offset": {
+        "seconds": 67,
+        "nanos": 280000000
+      },
+      "confidence": 0.90610111
+    }, {
+      "time_offset": {
+        "seconds": 68,
+        "nanos": 280000000
+      },
+      "confidence": 0.90258455
+    }, {
+      "time_offset": {
+        "seconds": 69,
+        "nanos": 280000000
+      },
+      "confidence": 0.92660248
+    }, {
+      "time_offset": {
+        "seconds": 70,
+        "nanos": 280000000
+      },
+      "confidence": 0.92909712
+    }, {
+      "time_offset": {
+        "seconds": 71,
+        "nanos": 280000000
+      },
+      "confidence": 0.92305982
+    }, {
+      "time_offset": {
+        "seconds": 72,
+        "nanos": 280000000
+      },
+      "confidence": 0.96147269
+    }, {
+      "time_offset": {
+        "seconds": 73,
+        "nanos": 280000000
+      },
+      "confidence": 0.95214385
+    }, {
+      "time_offset": {
+        "seconds": 74,
+        "nanos": 280000000
+      },
+      "confidence": 0.96970248
+    }, {
+      "time_offset": {
+        "seconds": 75,
+        "nanos": 280000000
+      },
+      "confidence": 0.97223312
+    }, {
+      "time_offset": {
+        "seconds": 76,
+        "nanos": 280000000
+      },
+      "confidence": 0.9693206
+    }, {
+      "time_offset": {
+        "seconds": 77,
+        "nanos": 280000000
+      },
+      "confidence": 0.95896286
+    }, {
+      "time_offset": {
+        "seconds": 78,
+        "nanos": 280000000
+      },
+      "confidence": 0.96901304
+    }, {
+      "time_offset": {
+        "seconds": 79,
+        "nanos": 280000000
+      },
+      "confidence": 0.93837786
+    }, {
+      "time_offset": {
+        "seconds": 80,
+        "nanos": 280000000
+      },
+      "confidence": 0.83768576
+    }, {
+      "time_offset": {
+        "seconds": 81,
+        "nanos": 280000000
+      },
+      "confidence": 0.81578749
+    }, {
+      "time_offset": {
+        "seconds": 82,
+        "nanos": 280000000
+      },
+      "confidence": 0.96536183
+    }, {
+      "time_offset": {
+        "seconds": 83,
+        "nanos": 280000000
+      },
+      "confidence": 0.95606619
+    }, {
+      "time_offset": {
+        "seconds": 84,
+        "nanos": 280000000
+      },
+      "confidence": 0.95928067
+    }, {
+      "time_offset": {
+        "seconds": 85,
+        "nanos": 280000000
+      },
+      "confidence": 0.81044894
+    }, {
+      "time_offset": {
+        "seconds": 86,
+        "nanos": 280000000
+      },
+      "confidence": 0.89311397
+    }, {
+      "time_offset": {
+        "seconds": 87,
+        "nanos": 280000000
+      },
+      "confidence": 0.86119688
+    }, {
+      "time_offset": {
+        "seconds": 88,
+        "nanos": 280000000
+      },
+      "confidence": 0.95627993
+    }, {
+      "time_offset": {
+        "seconds": 89,
+        "nanos": 280000000
+      },
+      "confidence": 0.91019398
+    }, {
+      "time_offset": {
+        "seconds": 90,
+        "nanos": 280000000
+      },
+      "confidence": 0.88542223
+    }, {
+      "time_offset": {
+        "seconds": 91,
+        "nanos": 280000000
+      },
+      "confidence": 0.92551136
+    }, {
+      "time_offset": {
+        "seconds": 92,
+        "nanos": 280000000
+      },
+      "confidence": 0.9635464
+    }, {
+      "time_offset": {
+        "seconds": 93,
+        "nanos": 280000000
+      },
+      "confidence": 0.88124442
+    }, {
+      "time_offset": {
+        "seconds": 94,
+        "nanos": 280000000
+      },
+      "confidence": 0.93596452
+    }, {
+      "time_offset": {
+        "seconds": 95,
+        "nanos": 280000000
+      },
+      "confidence": 0.91243571
+    }, {
+      "time_offset": {
+        "seconds": 96,
+        "nanos": 280000000
+      },
+      "confidence": 0.87944764
+    }, {
+      "time_offset": {
+        "seconds": 97,
+        "nanos": 280000000
+      },
+      "confidence": 0.92217529
+    }, {
+      "time_offset": {
+        "seconds": 98,
+        "nanos": 280000000
+      },
+      "confidence": 0.91335964
+    }, {
+      "time_offset": {
+        "seconds": 99,
+        "nanos": 280000000
+      },
+      "confidence": 0.95042849
+    }, {
+      "time_offset": {
+        "seconds": 100,
+        "nanos": 280000000
+      },
+      "confidence": 0.9050253
+    }, {
+      "time_offset": {
+        "seconds": 101,
+        "nanos": 280000000
+      },
+      "confidence": 0.96115744
+    }, {
+      "time_offset": {
+        "seconds": 102,
+        "nanos": 280000000
+      },
+      "confidence": 0.79716593
+    }, {
+      "time_offset": {
+        "seconds": 103,
+        "nanos": 280000000
+      },
+      "confidence": 0.27971008
+    }, {
+      "time_offset": {
+        "seconds": 104,
+        "nanos": 280000000
+      },
+      "confidence": 0.084660918
+    }, {
+      "time_offset": {
+        "seconds": 105,
+        "nanos": 280000000
+      },
+      "confidence": 0.23230153
+    }, {
+      "time_offset": {
+        "seconds": 106,
+        "nanos": 120000000
+      },
+      "confidence": 0.15310842
+    } ]
+  } ]
+}
